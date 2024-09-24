@@ -36,18 +36,16 @@ namespace jogodomilhao
             Button4 = buttonresposta4;
             Button5 = buttonresposta5;
         }
-        public void VerificaResposta(int RR);
+        public void VerificaResposta(int RR)
         {
             if (RespostaCerta==RR);
-            {
-
-            }
+            
         }
-
+          
         public Questao()
-        {
-
-        }
+    {
+    
+    }
         public Questao(Label labelpergunta, Button buttonresposta1, Button buttonresposta2, Button buttonresposta3, Button buttonresposta4, Button buttonresposta5)
         {
             Labelpergunta = labelpergunta;
