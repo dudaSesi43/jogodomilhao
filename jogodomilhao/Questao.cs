@@ -10,31 +10,31 @@ namespace jogodomilhao
         public string Resposta05;
         public int RespostaCorreta;
         public int Nivelresposta;
-        private Label Labelpergunta;
-        private Button Button1;
-        private Button Button2;
-        private Button Button3;
-        private Button Button4;
-        private Button Button5;
+        Label Labelpergunta;
+        Button Button1;
+        Button Button2;
+        Button Button3;
+        Button Button4;
+        Button Button5;
 
 
         public void ConfiguraEstruturaDesenho(Label labelpergunta, Button buttonresposta01, Button buttonresposta02, Button buttonresposta03, Button buttonresposta04, Button buttonresposta05)
         {
-            Labelpergunta = labelpergunta;
-            Button1 = buttonresposta01;
-            Button2 = buttonresposta02;
-            Button3 = buttonresposta03;
-            Button4 = buttonresposta04;
-            Button5 = buttonresposta05;
+            this.Labelpergunta = labelpergunta;
+            this.Button1 = buttonresposta01;
+            this.Button2 = buttonresposta02;
+            this.Button3 = buttonresposta03;
+            this.Button4 = buttonresposta04;
+            this.Button5 = buttonresposta05;
         }
-        public void Desenhar(Label labelpergunta, Button buttonresposta01, Button buttonresposta02, Button buttonresposta03, Button buttonresposta04, Button buttonresposta05)
+        public void Desenhar()
         {
-            Labelpergunta = labelpergunta;
-            Button1 = buttonresposta01;
-            Button2 = buttonresposta02;
-            Button3 = buttonresposta03;
-            Button4 = buttonresposta04;
-            Button5 = buttonresposta05;
+            Labelpergunta.Text = pergunta;
+            Button1.Text = Resposta01;
+            Button2.Text = Resposta02;
+            Button3.Text = Resposta03;
+            Button4.Text = Resposta04;
+            Button5.Text = Resposta05;
         }
 
         private Button QualBTN(int RR)
@@ -52,9 +52,9 @@ namespace jogodomilhao
             else 
             return null;
         }
-        public void VerificaResposta(int RR)
+        public bool VerificaResposta(int RR)
         {
-           if (Respostacorreta==RR)
+           if (RespostaCorreta==RR)
             {
                 var BTN= QualBTN(RR);
                 BTN.BackgroundColor=Colors.Green;
@@ -63,7 +63,7 @@ namespace jogodomilhao
             }
             else
             {
-                var BTNCorreto = QualBTN(Respostacorreta);
+                var BTNCorreto = QualBTN(RespostaCorreta);
                 var BTNIncorreto=QualBTN(RR);
                 BTNCorreto.BackgroundColor=Colors.Blue;
                 BTNIncorreto.BackgroundColor=Colors.Red;

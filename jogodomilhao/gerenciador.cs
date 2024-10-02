@@ -20,7 +20,7 @@ Q1.Resposta04 = "Salvador";
 Q1.RespostaCorreta = 03;
 ListaQuestoes.Add(Q1);
 
-var Q2 = new Questao();
+       var Q2 = new Questao();
 Q2.pergunta = "Quantos minutos há em uma hora?";
 Q2.Resposta01 = "30 minutos";
 Q2.Resposta02 = "45 minutos";
@@ -29,7 +29,7 @@ Q2.Resposta04 = "90 minutos";
 Q2.RespostaCorreta = 03;
 ListaQuestoes.Add(Q2);
 
-var Q3 = new Questao();
+        var Q3 = new Questao();
 Q3.pergunta = "Qual é o maior planeta do sistema solar?";
 Q3.Resposta01 = "Marte";
 Q3.Resposta02 = "Júpiter";
@@ -38,7 +38,7 @@ Q3.Resposta04 = "Terra";
 Q3.RespostaCorreta = 02;
 ListaQuestoes.Add(Q3);
 
-var Q4 = new Questao();
+        var Q4 = new Questao();
 Q4.pergunta = "Quem pintou a Mona Lisa?";
 Q4.Resposta01 = "Pablo Picasso";
 Q4.Resposta02 = "Leonardo da Vinci";
@@ -47,7 +47,7 @@ Q4.Resposta04 = "Vincent van Gogh";
 Q4.RespostaCorreta = 02;
 ListaQuestoes.Add(Q4);
 
-var Q5 = new Questao();
+       var Q5 = new Questao();
 Q5.pergunta = "Quantos dias tem um ano bissexto?";
 Q5.Resposta01 = "364";
 Q5.Resposta02 = "365";
@@ -56,7 +56,7 @@ Q5.Resposta04 = "367";
 Q5.RespostaCorreta = 03;
 ListaQuestoes.Add(Q5);
 
-var Q6 = new Questao();
+       var Q6 = new Questao();
 Q6.pergunta = "Em que continente está localizado o Egito?";
 Q6.Resposta01 = "Europa";
 Q6.Resposta02 = "Ásia";
@@ -65,7 +65,7 @@ Q6.Resposta04 = "Oceania";
 Q6.RespostaCorreta = 03;
 ListaQuestoes.Add(Q6);
 
-var Q7 = new Questao();
+       var Q7 = new Questao();
 Q7.pergunta = "Em que país fica a Torre Eiffel?";
 Q7.Resposta01 = "Itália";
 Q7.Resposta02 = "Alemanha";
@@ -171,7 +171,7 @@ Q18.Resposta02 = "Chita";
 Q18.Resposta03 = "Guepardo";
 Q18.Resposta04 = "Cavalo";
 Q18.RespostaCorreta = 03;
-ListaQuestoes.Add(Q18)
+ListaQuestoes.Add(Q18);
 
 var Q19 = new Questao();
 Q19.pergunta = "Em que país está localizada a Estátua da Liberdade?";
@@ -189,7 +189,7 @@ Q20.Resposta02 = "George Washington";
 Q20.Resposta03 = "Thomas Jefferson";
 Q20.Resposta04 = "John Adams";
 Q20.RespostaCorreta = 02;
-ListaQuestoes.Add(Q20)
+ListaQuestoes.Add(Q20);
 
 var Q21 = new Questao();
 Q21.pergunta = "Em que ano o homem chegou à Lua?";
@@ -368,7 +368,7 @@ Q40.Resposta01 = "Júlio César";
 Q40.Resposta02 = "Nero";
 Q40.Resposta03 = "Augusto";
 Q40.Resposta04 = "Calígula";
-Q40.RespostaCorreta 03;
+Q40.RespostaCorreta= 03;
 ListaQuestoes.Add(Q40);
 
 var Q41 = new Questao();
@@ -897,35 +897,11 @@ var Q99 = new Questao();
 Q99.pergunta = "Em qual cidade estão localizadas as pirâmides de Gizé?";
 Q99.Resposta01 = "Cairo";
 Q99.Resposta02 = "Luxor";
-Q99.ResQ99.Resposta02 = "Luxor";
+Q99.Resposta05 = "Sumatra";
 Q99.Resposta03 = "Alexandria";
 Q99.Resposta04 = "Assuã";
 Q99.RespostaCorreta = 01;
 ListaQuestoes.Add(Q99);
-
-
-
-
-
-
-         
-         
-         
-         
-
-         
-
-
-         
-
-         
-
-         
-
-
-         
-
-         
 
     }
       public void ProximaQuestao()
@@ -935,8 +911,9 @@ ListaQuestoes.Add(Q99);
          NumRandomico = Random.Shared.Next(0, ListaQuestoes.Count);
          ListaQuestoesRespondidas.Add(NumRandomico);
          QuestaoCorrente = ListaQuestoes[NumRandomico];
-         QuestaoCorrente.Desenha();
+         QuestaoCorrente.Desenhar();
       }
+      
       public async void VerificaResposta(int rr)
       {
         if(QuestaoCorrente.VerificaResposta(rr))
