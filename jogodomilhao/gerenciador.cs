@@ -148,7 +148,7 @@ Q14.Resposta02 = "206";
 Q14.Resposta03 = "207";
 Q14.Resposta04 = "208";
 Q14.RespostaCorreta = 02;
-Q. ConfiguraEstruturaDesenho(pergunta, Resposta01, Resposta02, Resposta03, Resposta04, Resposta05);
+Q14. ConfiguraEstruturaDesenho(pergunta, Resposta01, Resposta02, Resposta03, Resposta04, Resposta05);
 ListaQuestoes.Add(Q14);
 
 var Q15 = new Questao();
@@ -568,6 +568,7 @@ Q56.Resposta02 = "Yuri Gagarin";
 Q56.Resposta03 = "Buzz Aldrin";
 Q56.Resposta04 = "John Glenn";
 Q56.RespostaCorreta = 02;
+Q56.ConfiguraEstruturaDesenho(pergunta, Resposta01, Resposta02, Resposta03, Resposta04, Resposta05);
 ListaQuestoes.Add(Q56);
 
 var Q57 = new Questao();
@@ -577,6 +578,7 @@ Q57.Resposta02 = "K2";
 Q57.Resposta03 = "Monte Fuji";
 Q57.Resposta04 = "Mont Blanc";
 Q57.RespostaCorreta = 01;
+Q57.ConfiguraEstruturaDesenho(pergunta, Resposta01, Resposta02, Resposta03, Resposta04, Resposta05);
 ListaQuestoes.Add(Q57);
 
 var Q58 = new Questao();
@@ -586,6 +588,7 @@ Q58.Resposta02 = "Albert Einstein";
 Q58.Resposta03 = "Isaac Newton";
 Q58.Resposta04 = "Nikola Tesla";
 Q58.RespostaCorreta = 03;
+Q58.ConfiguraEstruturaDesenho(pergunta, Resposta01, Resposta02, Resposta03, Resposta04, Resposta05);
 ListaQuestoes.Add(Q58);
 
 var Q59 = new Questao();
@@ -595,6 +598,7 @@ Q59.Resposta02 = "Coreia do Sul";
 Q59.Resposta03 = "China";
 Q59.Resposta04 = "Vietnã";
 Q59.RespostaCorreta = 03;
+Q59.ConfiguraEstruturaDesenho(pergunta, Resposta01, Resposta02, Resposta03, Resposta04, Resposta05);
 ListaQuestoes.Add(Q59);
 
 var Q60 = new Questao();
@@ -604,6 +608,7 @@ Q60.Resposta02 = "Respiração celular";
 Q60.Resposta03 = "Fermentação";
 Q60.Resposta04 = "Quimiossíntese";
 Q60.RespostaCorreta = 01;
+Q50.ConfiguraEstruturaDesenho(pergunta, Resposta01, Resposta02, Resposta03, Resposta04, Resposta05);
 ListaQuestoes.Add(Q60);
 
 var Q61 = new Questao();
@@ -613,6 +618,7 @@ Q61.Resposta02 = "Shah Jahan";
 Q61.Resposta03 = "Akbar, o Grande";
 Q61.Resposta04 = "Jawaharlal Nehru";
 Q61.RespostaCorreta = 02;
+Q61.ConfiguraEstruturaDesenho(pergunta, Resposta01, Resposta02, Resposta03, Resposta04, Resposta05);
 ListaQuestoes.Add(Q61);
 
 var Q62 = new Questao();
@@ -622,6 +628,7 @@ Q62.Resposta02 = "Melbourne";
 Q62.Resposta03 = "Canberra";
 Q62.Resposta04 = "Perth";
 Q62.RespostaCorreta = 03;
+Q62.ConfiguraEstruturaDesenho(pergunta, Resposta01, Resposta02, Resposta03, Resposta04, Resposta05);
 ListaQuestoes.Add(Q62);
 
 var Q63 = new Questao();
@@ -631,6 +638,7 @@ Q63.Resposta02 = "Michelangelo";
 Q63.Resposta03 = "Vincent van Gogh";
 Q63.Resposta04 = "Pablo Picasso";
 Q63.RespostaCorreta = 01;
+Q63.ConfiguraEstruturaDesenho(pergunta, Resposta01, Resposta02, Resposta03, Resposta04, Resposta05);
 ListaQuestoes.Add(Q63);
 
 var Q64 = new Questao();
@@ -640,6 +648,7 @@ Q64.Resposta02 = "Brasil";
 Q64.Resposta03 = "Peru";
 Q64.Resposta04 = "Colômbia";
 Q64.RespostaCorreta = 02;
+Q64.ConfiguraEstruturaDesenho(pergunta, Resposta01, Resposta02, Resposta03, Resposta04, Resposta05);
 ListaQuestoes.Add(Q64);
 
 var Q65 = new Questao();
@@ -649,6 +658,7 @@ Q65.Resposta02 = "Marcel Proust";
 Q65.Resposta03 = "Alexandre Dumas";
 Q65.Resposta04 = "Gustave Flaubert";
 Q65.RespostaCorreta = 03;
+Q65.ConfiguraEstruturaDesenho(pergunta, Resposta01, Resposta02, Resposta03, Resposta04, Resposta05);
 ListaQuestoes.Add(Q65);
 
 var Q66 = new Questao();
@@ -658,6 +668,7 @@ Q66.Resposta02 = "45";
 Q66.Resposta03 = "60";
 Q66.Resposta04 = "120";
 Q66.RespostaCorreta = 03;
+Q66.ConfiguraEstruturaDesenho(pergunta, Resposta01, Resposta02, Resposta03, Resposta04, Resposta05);
 ListaQuestoes.Add(Q66);
 
 var Q67 = new Questao();
@@ -667,6 +678,7 @@ Q67.Resposta02 = "Vaticano";
 Q67.Resposta03 = "San Marino";
 Q67.Resposta04 = "Liechtenstein";
 Q67.RespostaCorreta = 02;
+Q67.ConfiguraEstruturaDesenho(pergunta, Resposta01, Resposta02, Resposta03, Resposta04, Resposta05);
 ListaQuestoes.Add(Q67);
 
 var Q68 = new Questao();
@@ -676,6 +688,7 @@ Q68.Resposta02 = "Oito";
 Q68.Resposta03 = "Nove";
 Q68.Resposta04 = "Dez";
 Q68.RespostaCorreta = 02;
+Q68.ConfiguraEstruturaDesenho(pergunta, Resposta01, Resposta02, Resposta03, Resposta04, Resposta05);
 ListaQuestoes.Add(Q68);
 
 var Q69 = new Questao();
@@ -685,6 +698,7 @@ Q69.Resposta02 = "Alemanha";
 Q69.Resposta03 = "Japão";
 Q69.Resposta04 = "Coreia do Sul";
 Q69.RespostaCorreta = 03;
+Q69.ConfiguraEstruturaDesenho(pergunta, Resposta01, Resposta02, Resposta03, Resposta04, Resposta05);
 ListaQuestoes.Add(Q69);
 
 var Q70 = new Questao();
@@ -694,6 +708,7 @@ Q70.Resposta02 = "Atilla";
 Q70.Resposta03 = "Genghis Khan";
 Q70.Resposta04 = "Tamerlão";
 Q70.RespostaCorreta = 03;
+Q70.ConfiguraEstruturaDesenho(pergunta, Resposta01, Resposta02, Resposta03, Resposta04, Resposta05);
 ListaQuestoes.Add(Q70);
 
 var Q71 = new Questao();
@@ -703,6 +718,7 @@ Q71.Resposta02 = "Buchenwald";
 Q71.Resposta03 = "Auschwitz";
 Q71.Resposta04 = "Treblinka";
 Q71.RespostaCorreta = 03;
+Q71.ConfiguraEstruturaDesenho(pergunta, Resposta01, Resposta02, Resposta03, Resposta04, Resposta05);
 ListaQuestoes.Add(Q71);
 
 var Q72 = new Questao();
@@ -711,6 +727,7 @@ Q72.Resposta01 = "Bélgica";
 Q72.Resposta02 = "Suíça";
 Q72.Resposta03 = "Holanda";
 Q72.Resposta04 = "Dinamarca";
+Q72.ConfiguraEstruturaDesenho(pergunta, Resposta01, Resposta02, Resposta03, Resposta04, Resposta05);
 Q72.RespostaCorreta = 03;
 ListaQuestoes.Add(Q72);
 
@@ -721,6 +738,7 @@ Q73.Resposta02 = "René Descartes";
 Q73.Resposta03 = "Friedrich Nietzsche";
 Q73.Resposta04 = "Sócrates";
 Q73.RespostaCorreta = 02;
+Q73.ConfiguraEstruturaDesenho(pergunta, Resposta01, Resposta02, Resposta03, Resposta04, Resposta05);
 ListaQuestoes.Add(Q73);
 
 var Q74 = new Questao();
@@ -730,6 +748,7 @@ Q74.Resposta02 = "Seis";
 Q74.Resposta03 = "Sete";
 Q74.Resposta04 = "Oito";
 Q74.RespostaCorreta =02;
+Q74.ConfiguraEstruturaDesenho(pergunta, Resposta01, Resposta02, Resposta03, Resposta04, Resposta05);
 ListaQuestoes.Add(Q74);
 
 var Q75 = new Questao();
@@ -739,6 +758,7 @@ Q75.Resposta02 = "Estados Unidos";
 Q75.Resposta03 = "Rússia";
 Q75.Resposta04 = "China";
 Q75.RespostaCorreta = 04;
+Q75.ConfiguraEstruturaDesenho(pergunta, Resposta01, Resposta02, Resposta03, Resposta04, Resposta05);
 ListaQuestoes.Add(Q75);
 
 var Q76 = new Questao();
@@ -748,6 +768,7 @@ Q76.Resposta02 = "Buzz Aldrin";
 Q76.Resposta03 = "Neil Armstrong";
 Q76.Resposta04 = "Michael Collins";
 Q76.RespostaCorreta = 03;
+Q76.ConfiguraEstruturaDesenho(pergunta, Resposta01, Resposta02, Resposta03, Resposta04, Resposta05);
 ListaQuestoes.Add(Q76);
 
 var Q77 = new Questao();
@@ -757,6 +778,7 @@ Q77.Resposta02 = "Pico da Neblina";
 Q77.Resposta03 = "Aconcágua";
 Q77.Resposta04 = "Chimborazo";
 Q77.RespostaCorreta = 03;
+Q77.ConfiguraEstruturaDesenho(pergunta, Resposta01, Resposta02, Resposta03, Resposta04, Resposta05);
 ListaQuestoes.Add(Q77);
 
 var Q78 = new Questao();
@@ -766,6 +788,7 @@ Q78.Resposta02 = "Vancouver";
 Q78.Resposta03 = "Montreal";
 Q78.Resposta04 = "Ottawa";
 Q78.RespostaCorreta = 04;
+Q78.ConfiguraEstruturaDesenho(pergunta, Resposta01, Resposta02, Resposta03, Resposta04, Resposta05);
 ListaQuestoes.Add(Q78);
 
 var Q79 = new Questao();
@@ -775,6 +798,7 @@ Q79.Resposta02 = "Urso Polar";
 Q79.Resposta03 = "Panda";
 Q79.Resposta04 = "Tigre";
 Q79.RespostaCorreta = 03;
+Q79.ConfiguraEstruturaDesenho(pergunta, Resposta01, Resposta02, Resposta03, Resposta04, Resposta05);
 ListaQuestoes.Add(Q79);
 
 var Q80 = new Questao();
@@ -784,6 +808,7 @@ Q80.Resposta02 = "Oxigênio";
 Q80.Resposta03 = "Ósmio";
 Q80.Resposta04 = "Ouro Branco";
 Q80.RespostaCorreta = 02;
+Q80.ConfiguraEstruturaDesenho(pergunta, Resposta01, Resposta02, Resposta03, Resposta04, Resposta05);
 ListaQuestoes.Add(Q80);
 
 var Q81 = new Questao();
@@ -793,6 +818,7 @@ Q81.Resposta02 = "Portugal";
 Q81.Resposta03 = "Espanha";
 Q81.Resposta04 = "Itália";
 Q81.RespostaCorreta = 03;
+Q81.ConfiguraEstruturaDesenho(pergunta, Resposta01, Resposta02, Resposta03, Resposta04, Resposta05);
 ListaQuestoes.Add(Q81);
 
 var Q82 = new Questao();
@@ -802,6 +828,7 @@ Q82.Resposta02 = "Oceano Índico";
 Q82.Resposta03 = "Oceano Atlântico";
 Q82.Resposta04 = "Oceano Ártico";
 Q82.RespostaCorreta = 03;
+Q82.ConfiguraEstruturaDesenho(pergunta, Resposta01, Resposta02, Resposta03, Resposta04, Resposta05);
 ListaQuestoes.Add(Q82);
 
 var Q83 = new Questao();
@@ -811,6 +838,7 @@ Q83.Resposta02 = "Pedro Álvares Cabral";
 Q83.Resposta03 = "Vasco da Gama";
 Q83.Resposta04 = "Américo Vespúcio";
 Q83.RespostaCorreta = 02;
+Q83.ConfiguraEstruturaDesenho(pergunta, Resposta01, Resposta02, Resposta03, Resposta04, Resposta05);
 ListaQuestoes.Add(Q83);
 
 var Q84 = new Questao();
@@ -820,6 +848,7 @@ Q84.Resposta02 = "Marie Curie";
 Q84.Resposta03 = "Louis Pasteur";
 Q84.Resposta04 = "Gregor Mendel";
 Q84.RespostaCorreta = 01;
+Q84.ConfiguraEstruturaDesenho(pergunta, Resposta01, Resposta02, Resposta03, Resposta04, Resposta05);
 ListaQuestoes.Add(Q84);
 
 var Q85 = new Questao();
@@ -829,6 +858,7 @@ Q85.Resposta02 = "Fígado";
 Q85.Resposta03 = "Pele";
 Q85.Resposta04 = "Coração";
 Q85.RespostaCorreta = 03;
+Q85.ConfiguraEstruturaDesenho(pergunta, Resposta01, Resposta02, Resposta03, Resposta04, Resposta05);
 ListaQuestoes.Add(Q85);
 
 var Q86 = new Questao();
@@ -838,6 +868,7 @@ Q86.Resposta02 = "Thomas Jefferson";
 Q86.Resposta03 = "George Washington";
 Q86.Resposta04 = "John Adams";
 Q86.RespostaCorreta = 03;
+Q86.ConfiguraEstruturaDesenho(pergunta, Resposta01, Resposta02, Resposta03, Resposta04, Resposta05);
 ListaQuestoes.Add(Q86);
 
 var Q87 = new Questao();
@@ -847,6 +878,7 @@ Q87.Resposta02 = "China";
 Q87.Resposta03 = "Rússia";
 Q87.Resposta04 = "Estados Unidos";
 Q87.RespostaCorreta = 03;
+Q87.ConfiguraEstruturaDesenho(pergunta, Resposta01, Resposta02, Resposta03, Resposta04, Resposta05);
 ListaQuestoes.Add(Q87);
 
 var Q88 = new Questao();
@@ -856,6 +888,7 @@ Q88.Resposta02 = "1969";
 Q88.Resposta03 = "1972";
 Q88.Resposta04 = "1967";
 Q88.RespostaCorreta = 02;
+Q88.ConfiguraEstruturaDesenho(pergunta, Resposta01, Resposta02, Resposta03, Resposta04, Resposta05);
 ListaQuestoes.Add(Q88);
 
 var Q89 = new Questao();
@@ -865,6 +898,7 @@ Q89.Resposta02 = "Gabriel García Márquez";
 Q89.Resposta03 = "Pablo Neruda";
 Q89.Resposta04 = "Jorge Luis Borges";
 Q89.RespostaCorreta = 01;
+Q89.ConfiguraEstruturaDesenho(pergunta, Resposta01, Resposta02, Resposta03, Resposta04, Resposta05);
 ListaQuestoes.Add(Q89);
 
 var Q90 = new Questao();
@@ -874,6 +908,7 @@ Q90.Resposta02 = "Rio Amazonas";
 Q90.Resposta03 = "Rio Yangtzé";
 Q90.Resposta04 = "Rio Mississippi";
 Q90.RespostaCorreta = 02;
+Q90.ConfiguraEstruturaDesenho(pergunta, Resposta01, Resposta02, Resposta03, Resposta04, Resposta05);
 ListaQuestoes.Add(Q90);
 
 var Q91 = new Questao();
@@ -883,6 +918,7 @@ Q91.Resposta02 = "Vênus";
 Q91.Resposta03 = "Marte";
 Q91.Resposta04 = "Mercúrio";
 Q91.RespostaCorreta = 04;
+Q91.ConfiguraEstruturaDesenho(pergunta, Resposta01, Resposta02, Resposta03, Resposta04, Resposta05);
 ListaQuestoes.Add(Q91);
 
 var Q92 = new Questao();
@@ -892,6 +928,7 @@ Q92.Resposta02 = "Europa";
 Q92.Resposta03 = "África";
 Q92.Resposta04 = "América do Sul";
 Q92.RespostaCorreta = 03;
+Q92.ConfiguraEstruturaDesenho(pergunta, Resposta01, Resposta02, Resposta03, Resposta04, Resposta05);
 ListaQuestoes.Add(Q92);
 
 var Q93 = new Questao();
@@ -901,6 +938,7 @@ Q93.Resposta02 = "Três";
 Q93.Resposta03 = "Quatro";
 Q93.Resposta04 = "Cinco";
 Q93.RespostaCorreta = 02;
+Q93.ConfiguraEstruturaDesenho(pergunta, Resposta01, Resposta02, Resposta03, Resposta04, Resposta05);
 ListaQuestoes.Add(Q93);
 
 var Q94 = new Questao();
@@ -910,6 +948,7 @@ Q94.Resposta02 = "Madri";
 Q94.Resposta03 = "Paris";
 Q94.Resposta04 = "Londres";
 Q94.RespostaCorreta = 03;
+Q94.ConfiguraEstruturaDesenho(pergunta, Resposta01, Resposta02, Resposta03, Resposta04, Resposta05);
 ListaQuestoes.Add(Q94);
 
 var Q95 = new Questao();
@@ -919,6 +958,7 @@ Q95.Resposta02 = "Edvard Munch";
 Q95.Resposta03 = "Pablo Picasso";
 Q95.Resposta04 = "Claude Monet";
 Q95.RespostaCorreta = 02;
+Q95.ConfiguraEstruturaDesenho(pergunta, Resposta01, Resposta02, Resposta03, Resposta04, Resposta05);
 ListaQuestoes.Add(Q95);
 
 var Q96 = new Questao();
@@ -928,6 +968,7 @@ Q96.Resposta02 = "Dólar";
 Q96.Resposta03 = "Iene";
 Q96.Resposta04 = "Yuan";
 Q96.RespostaCorreta = 03;
+Q96.ConfiguraEstruturaDesenho(pergunta, Resposta01, Resposta02, Resposta03, Resposta04, Resposta05);
 ListaQuestoes.Add(Q96);
 
 var Q97 = new Questao();
@@ -937,6 +978,7 @@ Q97.Resposta02 = "William Shakespeare";
 Q97.Resposta03 = "Homer";
 Q97.Resposta04 = "Virgílio";
 Q97.RespostaCorreta = 01;
+Q97.ConfiguraEstruturaDesenho(pergunta, Resposta01, Resposta02, Resposta03, Resposta04, Resposta05);
 ListaQuestoes.Add(Q97);
 
 var Q98 = new Questao();
@@ -946,6 +988,7 @@ Q98.Resposta02 = "208";
 Q98.Resposta03 = "210";
 Q98.Resposta04 = "212";
 Q98.RespostaCorreta = 01;
+Q98.ConfiguraEstruturaDesenho(pergunta, Resposta01, Resposta02, Resposta03, Resposta04, Resposta05);
 ListaQuestoes.Add(Q98);
 
 var Q99 = new Questao();
@@ -956,6 +999,7 @@ Q99.Resposta05 = "Sumatra";
 Q99.Resposta03 = "Alexandria";
 Q99.Resposta04 = "Assuã";
 Q99.RespostaCorreta = 01;
+Q99.ConfiguraEstruturaDesenho(pergunta, Resposta01, Resposta02, Resposta03, Resposta04, Resposta05);
 ListaQuestoes.Add(Q99);
 
     }

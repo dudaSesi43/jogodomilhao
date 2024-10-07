@@ -37,5 +37,9 @@ public partial class MainPage : ContentPage
     gerenciador!.VerificaResposta(5);
   }
 }
+  
+
+
+
 
 	
